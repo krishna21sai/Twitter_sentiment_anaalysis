@@ -1,5 +1,8 @@
 "# Twitter_sentiment_anaalysis" 
 ![Screenshot 2024-12-07 155902](https://github.com/user-attachments/assets/1e936ba9-8791-469a-af90-3bef5b1febb9)
+ 
+ 
+ 
  Dataset: 
 feature extractor to enhance accuracy in sentiment analysis 
 on Twitter data [8]. Gupta et al. perform data collection meth- 

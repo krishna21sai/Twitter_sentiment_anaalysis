@@ -120,45 +120,13 @@ duce words to their root forms, simplifying analysis by treating
 variations of the same word equally. NLTK provides sentiment 
 lexicons, dictionaries associating words with sentiment scores, 
 facilitating sentiment assignment to text. 
+
+
 ![Screenshot 2024-12-13 140136](https://github.com/user-attachments/assets/ac88a2ec-5a40-4c6c-9854-231d89c709e0)
 
-In this research, NLTK is a highly useful tool for removing 
-unwanted words and accurately identifying words through 
-lemmatization. With NLTK, Twitter data is cleaned and pre- 
-pared for sentiment analysis. 
-D. Feature Extraction and Selection : 
-TF-IDF:One of the best feature extraction methods for text 
-mining is term frequency-inverse document frequency, which 
-provides information on the importance of words in texts. In 
-TF1IDF, ”TF” stands for ”Term Frequency,” indicating how 
-frequently the term appears in the document, and ”IDF” for 
-”Inverse Document Frequency,” which measures how uncom- 
-mon the word is throughout the corpus. To be more precise, 
-TF measures how frequently a term appears in a document, 
-whereas IDF assesses how unique a word is over the entire 
-corpus of papers.The TF and IDF are multiplied to get the 
-outcome. 
-The TF-IDF calculation formula is given by: 
-TF-IDF = TF × IDF 
-Where: 
-TF = 
-d
- number of times term t in given document d 
-IDF = log no. of documents containing term t + 1 
-Total number of documents in corpus 
-Document containing the terms with higher TF-IDF score can 
-considers as more relevant.it is best feature extraction tech- 
-nique for the tasks such as sentiment analysis,spam detection 
-etc. 
-Word2Vec: Indeed, one of the most potent methods in 
-natural language processing (NLP) is word embedding, such as 
-Word2Vec. Word2Vec identifies semantic links and similarities 
-between words by expressing words as dense vectors in a con- 
-tinuous vector space. This helps algorithms better understand 
-the contextual meaning of words in a given language.Word 
-FIij 
-= 
-embedding methods such as Word2Vec transform the way 
+
+Feature Extraction and Selection : TF-IDF:One of the best feature extraction methods for text mining is term frequency-inverse document frequency, which provides information on the importance of words in texts. In TF1IDF, ”TF” stands for ”Term Frequency,” indicating how frequently the term appears in the document, and ”IDF” for ”Inverse Document Frequency,” which measures how uncom- mon the word is throughout the corpus. To be more precise, TF measures how frequently a term appears in a document, whereas IDF assesses how unique a word is over the entire corpus of papers.The TF and IDF are multiplied to get the outcome. The TF-IDF calculation formula is given by: TF-IDF = TF × IDF Where: TF = d number of times term t in given document d IDF = log no. of documents containing term t + 1 Total number of documents in corpus Document containing the terms with higher TF-IDF score can considers as more relevant.it is best feature extraction tech- nique for the tasks such as sentiment analysis,spam detection etc. Word2Vec: Indeed, one of the most potent methods in natural language processing (NLP) is word embedding, such as Word2Vec. Word2Vec identifies semantic links and similarities between words by expressing words as dense vectors in a con- tinuous vector space. This helps algorithms better understand the contextual meaning of words in a given language.Word FIij = embedding methods such as Word2Vec transform the way natural language data is represented and handled in NLP tasks. They are essential tools for a variety of natural language processing (NLP) applications, including as text classification, sentiment analysis, machine translation, and more, since they allow computers to comprehend the semantic subtleties of language, lessen the impact of dimensionality, and enable transfer learning.
+word2vec : embedding methods such as Word2Vec transform the way 
 natural language data is represented and handled in NLP tasks. 
 They are essential tools for a variety of natural language 
 processing (NLP) applications, including as text classification, 
